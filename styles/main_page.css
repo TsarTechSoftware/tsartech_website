@@ -1,0 +1,97 @@
+.backgroundImage{
+	opacity: 0.8;
+	filter: alpha(opacity=50);
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.whiteBox{
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 100%;
+}
+
+.tsarLogo{
+	float: left;
+	width: 8%;
+	height: 8%;
+	padding: 6px;
+	padding-left: 19px;
+}
+
+.tsarLogoText{
+	float: left;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	margin-top: 3%;
+	color: black;
+
+}
+
+.header{
+	background: white;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	left:0;
+}
+
+.nav{
+	float: right;
+	padding-right: 50px;
+}
+
+#introText{
+	padding-top: 300px;
+	padding-bottom: 300px;
+	font-size: 33px;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	letter-spacing: 40px;
+}
+
+.inlineText {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 145px 0px 160px;
+    text-align: center;
+    line-height: 57px;
+    color: #c49c4c;
+}
+
+#agileImg {
+    float: left;
+    width: 45%;
+    padding: 72px 20px 0px 0px;
+
+}
+body{
+	background-image: url("tsartech.org/images/beach_image_compass_photography.jpg");
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 500px;
+	width: 100%;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+	color: #c49c4c;
+}
+
+li{
+	list-style: none;
+	float: left;
+	margin-left: 22px;
+	padding-top: 22px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: 800;
+	font-size: 25px;
+}

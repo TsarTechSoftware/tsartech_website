@@ -1,0 +1,138 @@
+
+#boxshadow {
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.tsarLogo{
+	float: left;
+	width: 8%;
+	height: 8%;
+	padding: 6px;
+	padding-left: 19px;
+}
+
+.tsarLogoText{
+	float: left;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	margin-top: 3%;
+	color: black;
+}
+
+.header{
+	background: white;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	left:0;
+}
+
+.nav{
+	float: right;
+	padding-right: 50px;
+}
+
+.smallCredits{
+	font-size: 2px;
+}
+
+body{
+	background-color: #efefef;
+	background-position: center;
+	width: 100%;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+	color: #c49c4c;
+}
+
+li{
+	list-style: none;
+	float: left;
+	margin-left: 22px;
+	padding-top: 22px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: 800;
+	font-size: 25px;
+}
+
+#linkTextL{
+	font-family: Impact, Charcoal, sans-serif;
+    font-weight: 800;
+    padding-top: 53px;
+    padding-right: 3px;
+    color: black;
+    font-size: 40px;
+}
+
+#linkTextR{
+	font-family: Impact, Charcoal, sans-serif;
+    font-weight: 800;
+    padding-top: 13px;
+    color: black;
+    font-size: 40px;
+    text-align: right;
+}
+
+#linkTextYT{
+	font-family: Impact, Charcoal, sans-serif;
+    font-weight: 800;
+    color: black;
+    font-size: 40px;
+    text-align: left;
+}
+
+#images{
+	margin-top: 140px;
+}
+
+.gitImg{
+	float: left;
+	width: 16%;
+	padding-right: 15px;
+}
+
+.linkedinImg{
+	float: right;
+	width: 16%;
+	padding-left: 18px;
+}
+
+.youtubeImg{
+	float: left;
+	width: 19%;
+	padding-right: 10px;
+}
+
+.resumeImg{
+	float: left;
+	width: 20%;
+	height: 20%;
+	padding-right: 10px;
+}
+
+.phoneImg{
+	float: left;
+	width: 20%;
+	height: 20%;
+	padding-right: 10px;
+}
+
+.emailImg{
+	float: left;
+	width: 20%;
+	height: 20%;
+	padding-right: 10px;
+}
