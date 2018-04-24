@@ -1,47 +1,72 @@
 <html>
 	<head>
-		<title>My Images Slider</title>
+		<title>Gallery</title>
 		<meta charset="utf-8">
 		<meta name="author" content="Carlos Arias">
 		<link rel="stylesheet" type="text/css" href="styles/slider.css">
+		<link rel="stylesheet" type="text/css" href="styles/main_page.css">
 		<script type="text/javascript" src="js/slider.js"></script>
 	</head>
 	<body>
-		<h2>Nature Slideshow</h2>
-		<p>Images should change every 2 seconds, how to change every 1 second?</p>
-		<div class="slideshow-container">
-			<div class="slides">
-				<div class="numbertext">1 / 4</div>
-				  <img src="images/circuit_image.png" style="width:100%">
-				  <div class="text">Biodiesel Converter Circuit</div>
+		<div class="header">
+			<div class="container">
+				<div>
+					<a href="index.html">
+						<img src="images/TsarTechLogo.jpg" class="tsarLogoGallery">
+						<p class="tsarLogoText">TsarTech<br>Nicholas Zamora</p>
+					</a>
 				</div>
-			<div class="slides">
-				<div class="numbertext">2 / 4</div>
-				<img src="images/drone_image.png" style="width:100%">
-				<div class="text">Prototype of my Drone</div>
+				<div class="nav">
+					<ul>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="sliderTest.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="liliTest.html">Contributors</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="slides">
-				<div class="numbertext">3 / 4</div>
-				<img src="images/gameboy_image.png" style="width:100%">
-				<div class="text">A Refurbished Gameboy</div>
-			</div>
-			<div class="slides">
-				<div class="numbertext">4 / 4</div>
-				<img src="images/TsarTechLogo.jpg" style="width:100%">
-				<div class="text">TsarTech</div>
-			</div>
-			</div>
-		<br>
-		<div style="text-align:center">
-		  <span class="dot"></span> 
-		  <span class="dot"></span> 
-		  <span class="dot"></span> 
-		  <span class="dot"></span> 
 		</div>
-		<br>
-		<br>
-		<script>
-		showSlides();
-		</script>
+
+		<div>
+			<h2 id="galleryHead">Gallery</h2>
+			<p id="inlineTextGallery">Images of projects and schematics designed by TsarTech</p>
+			<div class="greyBox">
+				<div class="slideshow-container">
+					<div class="slides">
+						<div class="numbertext">1 / 4</div>
+						<img src="images/circuit_image.png" style="width:100%">
+						<div class="text">Biodiesel Converter Circuit</div>
+					</div>
+					<div class="slides">
+						<div class="numbertext">2 / 4</div>
+						<img src="images/drone_image.png" style="width:100%">
+						<div class="text">Prototype of my Drone</div>
+					</div>
+					<div class="slides">
+						<div class="numbertext">3 / 4</div>
+						<img src="images/gameboy_image.png" style="width:100%">
+						<div class="text">A Refurbished Gameboy</div>
+					</div>
+					<div class="slides">
+						<div class="numbertext">4 / 4</div>
+						<img src="images/TsarTechLogo.jpg" style="width:100%">
+						<div class="text">TsarTech</div>
+					</div>
+				</div>
+				<br>
+				<div style="text-align:center">
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+				</div>
+				<br>
+				<br>
+				<script>
+				showSlides();
+				</script>
+			</div>
+		</div>
 	</body>
 </html>
