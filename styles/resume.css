@@ -1,0 +1,81 @@
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.listContainer{
+	margin: 0 0 146px 0;
+}
+
+.summaryContainer {
+    width: 702px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 26px;
+}
+
+.blockContainer{
+	background-color: #b0ccea;
+	text-align: center;
+	padding: 2px 0;
+	margin: 1px 0;
+}
+
+.lightBlueBox{
+	background-color: #e6ecf8;
+	padding: 10px 40px;
+}
+
+.lightGreenBox{
+	background-color: #b3f8de;
+	padding: 10px 40px;
+}
+
+#programmingList{
+	background-color: #8ea7d9;
+	text-align: center;
+	float: left;
+}
+#hardwareList{
+	background-color: #fac46a;
+	text-align: center;
+	float: left;
+}
+#algorithmsList{
+	background-color: #dbeed0;
+	text-align: center;
+	float: left;
+}
+#osList{
+	background-color: #b17f06;
+	text-align: center;
+	float: left;
+}
+#networkingList{
+	background-color: #c3c3c3;
+	text-align: center;
+	float: left;
+}
+
+body{
+	font-family: "helvetica";
+}
+
+h1{
+	font-size: 20px;
+	font-family: "helvetica";
+}
+
+ul{
+	list-style-type: none;
+	margin: 0 0;
+	padding: 12px 0px;
+	color: black;
+	line-height: 20px;
+}
+
+li{
+	display: block;
+	width: 192px;
+
+}
