@@ -1,6 +1,50 @@
-.container{
-	margin: 0 auto;
-	width: 960px;
+.h3Lines{
+	padding: 0 33px;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+#graberContainer{
+	background-color: rgba(128, 0, 32, .7);
+	height: 262px;
+}
+
+#headerName{
+	float: left;
+	color: white;
+	font-weight: 600;
+	font-size: 27px;
+	padding: 162px 0 0 21px;
+}
+
+#headCredentials{
+	float: right;
+	text-align: right;
+	color: white;
+	font-weight: 600;
+	line-height: 4px;
+	padding: 96px 21px 0px 0px;
+}
+
+#experienceContainerMaster{
+	background-color: rgba(244, 206, 66, .7);
+	padding: 20px 0;
+}
+
+#experienceContainer{
+	text-align: left;
+	list-style-type: disc;
+	width: 70%;
+	display: list-item;
+	font-weight: 600;
+	font-size: 15px;
+	margin: 0 110px;
+}
+
+
+.educationContainer{
+	background-color: rgba(128, 0, 32, .7);
+	padding: 0 62px;
 }
 
 .listContainer{
@@ -15,50 +59,65 @@
 }
 
 .blockContainer{
-	background-color: #b0ccea;
+	background-color: rgba(176,204,234,1);
 	text-align: center;
 	padding: 2px 0;
 	margin: 1px 0;
 }
 
 .lightBlueBox{
-	background-color: #e6ecf8;
+	background-color: rgba(230,236,248,.7);
 	padding: 10px 40px;
 }
 
 .lightGreenBox{
-	background-color: #b3f8de;
+	background-color: rgba(179,248,222,.7);
 	padding: 10px 40px;
 }
 
 #programmingList{
-	background-color: #8ea7d9;
+	background-color: rgba(142,167,217,.7);
 	text-align: center;
 	float: left;
 }
 #hardwareList{
-	background-color: #fac46a;
+	background-color: rgba(250,196,106,.7);
 	text-align: center;
 	float: left;
 }
 #algorithmsList{
-	background-color: #dbeed0;
+	background-color: rgba(219,238,208,.7);
 	text-align: center;
 	float: left;
 }
 #osList{
-	background-color: #b17f06;
+	background-color: rgba(177,127,6,.7);
 	text-align: center;
 	float: left;
 }
 #networkingList{
-	background-color: #c3c3c3;
+	background-color: rgba(195,195,195,.7);
 	text-align: center;
 	float: left;
 }
 
+#ulId{
+		list-style-type: none;
+	margin: 0 0;
+	padding: 12px 0px;
+	color: black;
+	line-height: 20px;
+}
+
 body{
 	font-family: "helvetica";
+	background-image: url("http:www.tsartech.org/images/dark_beach.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 500px;
+	width: 100%;
+	margin: auto;
 }
 
 h1{
@@ -66,13 +125,6 @@ h1{
 	font-family: "helvetica";
 }
 
-ul{
-	list-style-type: none;
-	margin: 0 0;
-	padding: 12px 0px;
-	color: black;
-	line-height: 20px;
-}
 
 li{
 	display: block;

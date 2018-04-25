@@ -1,0 +1,56 @@
+#header{
+	background: white;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	left:0;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#tsarLogo{
+	float: left;
+	width: 8%;
+	height: 8%;
+	padding: 6px;
+	padding-left: 19px;
+}
+
+#tsarLogoText{
+	float: left;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	margin-top: 3%;
+	color: black;
+
+}
+
+#nav{
+	float: right;
+	padding-right: 50px;
+}
+
+#aHeader{
+	text-decoration: none;
+	color: #c49c4c;
+}
+
+#listHeader{
+	list-style: none;
+	float: left;
+	margin-left: 22px;
+	padding-top: 22px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: 800;
+	font-size: 25px;
+	width: inherit;
+}
+
+#ulHeader{
+	line-height: inherit;
+
+}
