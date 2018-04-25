@@ -109,9 +109,9 @@
 	line-height: 20px;
 }
 
-body{
+#bodyMain{
 	font-family: "helvetica";
-	background-image: url("http:www.tsartech.org/images/dark_beach.jpg");
+	background-image: url("http://www.tsartech.org/images/dark_beach.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
